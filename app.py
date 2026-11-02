@@ -3,7 +3,13 @@ import pandas as pd
 
 from adaptive import update_difficulty, get_next_question
 from classifier import predict_level
-from database import create_table, save_result, get_history
+from database import (
+    create_table,
+    save_result,
+    get_history,
+    register_user,
+    get_user_stats
+)
 from performance import show_performance_chart
 
 
@@ -185,6 +191,38 @@ page = st.sidebar.radio(
     "Navigate",
     ["Home", "Dashboard", "Quiz History"]
 )
+# ---------------- USER PROFILE ----------------
+
+st.sidebar.divider()
+st.sidebar.subheader("Your Profile")
+
+with st.sidebar.form("profile_form"):
+
+    profile_name = st.text_input(
+        "Enter your username",
+        value=st.session_state.username,
+        placeholder="Your unique username"
+    )
+
+    load_profile = st.form_submit_button("Load Profile")
+
+    if load_profile:
+
+        if not profile_name.strip():
+            st.sidebar.warning("Please enter a username.")
+
+        else:
+            user_id = register_user(profile_name)
+
+            if user_id is not None:
+                st.session_state.username = profile_name.strip()
+
+                # Reset an unfinished quiz when switching profiles
+                st.session_state.started = False
+                st.session_state.finished = False
+                st.session_state.current_question = None
+
+                st.rerun()
 
 
 # ---------------- HOME ----------------
@@ -236,6 +274,10 @@ if page == "Home":
         else:
 
             st.session_state.username = name.strip()
+
+            # Register or retrieve the user
+            register_user(st.session_state.username)
+
             st.session_state.mode = mode
             st.session_state.topic_scope = (
                 subject if mode == "Individual Subject"
@@ -404,10 +446,26 @@ elif page == "Dashboard":
 
             st.metric("Total Quizzes", len(df))
 
-            st.metric(
-                "Average Accuracy",
-                f"{df['Accuracy'].mean():.1f}%"
+            stats = get_user_stats(st.session_state.username)
+
+            total_quizzes = stats[0]
+            total_correct = stats[1]
+            total_questions = stats[2]
+            average_accuracy = stats[3]
+
+            col1, col2, col3 = st.columns(3)
+
+            col1.metric("Total Quizzes", total_quizzes)
+
+            col2.metric(
+            "Overall Accuracy",
+            f"{average_accuracy:.1f}%"
             )
+
+            col3.metric(
+            "Questions Attempted",
+            total_questions
+            )       
 
             fig = show_performance_chart(history)
 
