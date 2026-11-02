@@ -1,0 +1,136 @@
+id,topic,difficulty,question,option1,option2,option3,option4,answer
+1,Programming,Easy,Which language is commonly used for AI?,HTML,Python,CSS,SQL,Python
+2,Programming,Easy,Which symbol starts a single-line comment in Python?,#,//,/*,%,#
+3,Programming,Easy,Which keyword defines a function in Python?,function,define,def,fun,def
+4,Programming,Easy,Which data type stores True or False?,int,str,bool,float,bool
+5,Programming,Easy,Which function displays output in Python?,input,print,read,display,print
+6,Programming,Medium,Which data structure follows LIFO?,Queue,Array,Stack,Tree,Stack
+7,Programming,Medium,What does the len() function return?,Number of items,Memory address,Data type,Last item,Number of items
+8,Programming,Medium,Which loop is commonly used to iterate over a sequence in Python?,switch,for,class,try,for
+9,Programming,Medium,What is the result of 7 // 2 in Python?,3.5,4,3,2,3
+10,Programming,Medium,Which keyword is used to handle exceptions in Python?,catch,error,except,final,except
+11,Programming,Hard,What is the average time complexity of binary search on a sorted array?,O(n),O(log n),O(n²),O(1),O(log n)
+12,Programming,Hard,What is the time complexity of accessing an array element by index?,O(n),O(log n),O(1),O(n log n),O(1)
+13,Programming,Hard,Which Python feature creates an iterator from a compact expression?,List comprehension,Lambda only,Generator expression,Decorator,Generator expression
+14,Programming,Hard,What is recursion?,A function calling itself,A loop with no condition,Sorting a list,Declaring a variable,A function calling itself
+15,Programming,Hard,Which data structure is commonly used for breadth-first search?,Stack,Queue,Heap,Hash set,Queue
+16,Artificial Intelligence,Easy,What does AI stand for?,Automated Internet,Artificial Intelligence,Advanced Input,Applied Information,Artificial Intelligence
+17,Artificial Intelligence,Easy,Which of these is an example of an AI application?,A basic light switch,A voice assistant,A paper notebook,A ruler,A voice assistant
+18,Artificial Intelligence,Easy,What is a dataset?,A collection of data,A computer cable,A programming error,A screen setting,A collection of data
+19,Artificial Intelligence,Easy,Which field enables computers to learn patterns from data?,Machine learning,Word processing,File compression,Web hosting,Machine learning
+20,Artificial Intelligence,Easy,Which device can collect data for a smart system?,Sensor,Stapler,Whiteboard,Envelope,Sensor
+21,Artificial Intelligence,Medium,Which learning method uses labelled examples?,Unsupervised,Reinforcement,Supervised,Random,Supervised
+22,Artificial Intelligence,Medium,"In classification, what does a model predict?",A category or class,Only a continuous number,A file size,A screen resolution,A category or class
+23,Artificial Intelligence,Medium,Which task groups similar data points without labels?,Classification,Clustering,Regression,Sorting,Clustering
+24,Artificial Intelligence,Medium,What is the purpose of training data?,To teach a model patterns,To decorate a chart,To store passwords,To increase screen brightness,To teach a model patterns
+25,Artificial Intelligence,Medium,Which measure is the proportion of correct predictions?,Recall,Accuracy,Latency,Variance,Accuracy
+26,Artificial Intelligence,Hard,Which algorithm is commonly used for classification?,KNN,K-Means,Apriori,PCA,KNN
+27,Artificial Intelligence,Hard,What is overfitting?,Model performs well on training data but poorly on new data,Model has no input data,Model always predicts the average,Model uses too little memory,Model performs well on training data but poorly on new data
+28,Artificial Intelligence,Hard,Which technique combines predictions from multiple models?,Ensemble learning,Tokenization,Normalization only,Data entry,Ensemble learning
+29,Artificial Intelligence,Hard,"In a decision tree, what does a leaf node represent?",A final prediction,The training computer,A missing dataset,A loop condition,A final prediction
+30,Artificial Intelligence,Hard,Which problem is regression designed to solve?,Predicting a continuous value,Assigning a category,Grouping unlabeled items,Finding shortest paths,Predicting a continuous value
+31,Mathematics,Easy,What is 12 multiplied by 8?,84,88,96,108,96
+32,Mathematics,Easy,What is the square root of 144?,10,11,12,14,12
+33,Mathematics,Easy,What is 25 percent of 200?,25,40,50,75,50
+34,Mathematics,Easy,What is the value of 7 + 9?,14,15,16,17,16
+35,Mathematics,Easy,How many degrees are in a right angle?,45,60,90,180,90
+36,Mathematics,Medium,Solve: 3x = 21. What is x?,6,7,8,9,7
+37,Mathematics,Medium,What is the area of a rectangle of length 8 and width 5?,13,26,40,80,40
+38,Mathematics,Medium,"What is the mean of 4, 6, and 8?",5,6,7,8,6
+39,Mathematics,Medium,What is the value of 2 cubed?,4,6,8,9,8
+40,Mathematics,Medium,A fair coin is tossed once. What is the probability of heads?,0,1/4,1/2,1,1/2
+41,Mathematics,Hard,What is the derivative of x²?,x,2x,x³,2,2x
+42,Mathematics,Hard,"What is the determinant of [[1,2],[3,4]]?",-2,2,10,-10,-2
+43,Mathematics,Hard,"If f(x) = x² + 3x, what is f'(x)?",2x + 3,x + 3,2x,x² + 3,2x + 3
+44,Mathematics,Hard,What is the sum of the first 10 positive integers?,45,50,55,60,55
+45,Mathematics,Hard,What is the probability of getting an even number on a fair six-sided die?,1/6,1/3,1/2,2/3,1/2
+46,General Knowledge,Easy,What is the capital of India?,Mumbai,New Delhi,Chennai,Kolkata,New Delhi
+47,General Knowledge,Easy,Which planet is known as the Red Planet?,Venus,Mars,Jupiter,Saturn,Mars
+48,General Knowledge,Easy,How many days are there in a leap year?,364,365,366,367,366
+49,General Knowledge,Easy,Which is the largest ocean on Earth?,Atlantic,Indian,Arctic,Pacific,Pacific
+50,General Knowledge,Easy,What is the national currency of Japan?,Yuan,Yen,Won,Rupee,Yen
+51,General Knowledge,Medium,Which organisation publishes the World Economic Outlook?,WHO,UNESCO,IMF,UNICEF,IMF
+52,General Knowledge,Medium,Which is the smallest continent by land area?,Europe,Australia,South America,Antarctica,Australia
+53,General Knowledge,Medium,Which gas is most abundant in Earth's atmosphere?,Oxygen,Carbon dioxide,Nitrogen,Hydrogen,Nitrogen
+54,General Knowledge,Medium,In which year did India become a republic?,1947,1950,1952,1960,1950
+55,General Knowledge,Medium,Which instrument is used to measure atmospheric pressure?,Thermometer,Barometer,Hygrometer,Ammeter,Barometer
+56,General Knowledge,Hard,Which strait separates India and Sri Lanka?,Bering Strait,Palk Strait,Malacca Strait,Gibraltar Strait,Palk Strait
+57,General Knowledge,Hard,Which is the largest hot desert in the world?,Gobi,Sahara,Kalahari,Arabian,Sahara
+58,General Knowledge,Hard,Which international court is based in The Hague and settles disputes between states?,International Court of Justice,International Criminal Court only,European Court of Auditors,World Trade Organization,International Court of Justice
+59,General Knowledge,Hard,Which layer of Earth's atmosphere contains most weather events?,Stratosphere,Mesosphere,Troposphere,Thermosphere,Troposphere
+60,General Knowledge,Hard,Which Indian space mission achieved a soft landing near the Moon's south polar region in 2023?,Chandrayaan-1,Mangalyaan,Chandrayaan-2,Chandrayaan-3,Chandrayaan-3
+61,Science,Easy,Which gas do plants absorb during photosynthesis?,Oxygen,Nitrogen,Carbon dioxide,Hydrogen,Carbon dioxide
+62,Science,Easy,What is the chemical symbol for water?,CO2,H2O,O2,NaCl,H2O
+63,Science,Easy,Which organ pumps blood around the human body?,Lungs,Brain,Heart,Kidneys,Heart
+64,Science,Easy,At what temperature does water freeze on the Celsius scale at standard pressure?,0°C,10°C,50°C,100°C,0°C
+65,Science,Easy,Which part of a plant usually absorbs water from soil?,Flower,Root,Fruit,Leaf,Root
+66,Science,Medium,What is the chemical symbol for sodium?,So,Na,S,N,Na
+67,Science,Medium,Which force pulls objects toward Earth?,Friction,Magnetism,Gravity,Tension,Gravity
+68,Science,Medium,Which cell structure contains most of the genetic material?,Nucleus,Cell wall,Ribosome,Cytoplasm,Nucleus
+69,Science,Medium,What is the approximate speed of light in a vacuum?,3 × 10^6 m/s,3 × 10^8 m/s,3 × 10^10 m/s,300 m/s,3 × 10^8 m/s
+70,Science,Medium,Which pH value is neutral at room temperature?,3,5,7,10,7
+71,Science,Hard,What is the SI unit of electrical resistance?,Volt,Ampere,Ohm,Watt,Ohm
+72,Science,Hard,Which law states that pressure of a gas is inversely proportional to its volume at constant temperature?,Charles's law,Boyle's law,Ohm's law,Newton's law,Boyle's law
+73,Science,Hard,What is the name of the process by which a solid changes directly into a gas?,Condensation,Freezing,Sublimation,Evaporation,Sublimation
+74,Science,Hard,Which type of bond involves sharing electron pairs between atoms?,Ionic bond,Covalent bond,Metallic bond,Hydrogen bond,Covalent bond
+75,Science,Hard,Which blood component is primarily responsible for clotting?,Red blood cells,White blood cells,Platelets,Plasma water,Platelets
+76,English,Easy,What is the plural of child?,Childs,Childes,Children,Childrens,Children
+77,English,Easy,Choose the opposite of hot.,Warm,Cold,Boiling,Heat,Cold
+78,English,Easy,Which word is a noun?,Run,Beautiful,Happiness,Quickly,Happiness
+79,English,Easy,Choose the correctly spelled word.,Receive,Recieve,Receeve,Receve,Receive
+80,English,Easy,Which punctuation mark ends a direct question?,Full stop,Comma,Question mark,Colon,Question mark
+81,English,Medium,Choose a synonym for rapid.,Slow,Quick,Weak,Quiet,Quick
+82,English,Medium,Choose the correct verb: She ___ to college every day.,go,going,goes,gone,goes
+83,English,Medium,Which word is an adjective in 'The bright sun shone'?,sun,shone,bright,the,bright
+84,English,Medium,Choose the correct article: He ate ___ apple.,a,an,the,no article,an
+85,English,Medium,What is the past tense of 'teach'?,teached,taught,teaching,teaches,taught
+86,English,Hard,Choose the passive form: She writes a letter.,A letter wrote her,A letter is written by her,A letter has writing,A letter writes her,A letter is written by her
+87,English,Hard,Which sentence uses the subjunctive correctly?,I wish I was taller,I wish I were taller,I wish I am taller,I wish I be taller,I wish I were taller
+88,English,Hard,Identify the correctly punctuated sentence.,However I was late.,"However, I was late.","However I, was late.","However; I was late,","However, I was late."
+89,English,Hard,Which figure of speech compares two things using 'like' or 'as'?,Metaphor,Simile,Hyperbole,Personification,Simile
+90,English,Hard,"Choose the correct reported speech: He said, 'I am tired.'",He said that I am tired.,He said that he was tired.,He says he tired.,He said he is tire.,He said that he was tired.
+91,Computer Science,Easy,Which component is called the brain of a computer?,Monitor,CPU,Keyboard,Mouse,CPU
+92,Computer Science,Easy,Which language is used to query relational databases?,HTML,SQL,CSS,XML,SQL
+93,Computer Science,Easy,Which device is used to enter text into a computer?,Monitor,Keyboard,Speaker,Projector,Keyboard
+94,Computer Science,Easy,What does RAM stand for?,Read Access Memory,Random Access Memory,Run All Memory,Rapid Action Module,Random Access Memory
+95,Computer Science,Easy,Which of these is an operating system?,Python,Linux,HTML,Oracle SQL,Linux
+96,Computer Science,Medium,Which scheduling algorithm uses time slices?,FCFS,Round Robin,SJF,Priority,Round Robin
+97,Computer Science,Medium,Which SQL command retrieves data from a table?,INSERT,UPDATE,SELECT,DELETE,SELECT
+98,Computer Science,Medium,Which layer of the OSI model is responsible for routing?,Physical,Data Link,Network,Presentation,Network
+99,Computer Science,Medium,What is the main purpose of an operating system?,Manage computer resources,Design web pages,Compile every language,Create databases only,Manage computer resources
+100,Computer Science,Medium,Which key uniquely identifies each row in a relational table?,Foreign key,Primary key,Candidate value only,Index label,Primary key
+101,Computer Science,Hard,Which normal form removes partial dependency on a candidate key?,1NF,2NF,3NF,BCNF,2NF
+102,Computer Science,Hard,What is the worst-case time complexity of merge sort?,O(n),O(log n),O(n log n),O(n²),O(n log n)
+103,Computer Science,Hard,"Which protocol provides reliable, connection-oriented transport?",UDP,IP,TCP,ARP,TCP
+104,Computer Science,Hard,"In a binary search tree, which traversal visits keys in sorted order?",Preorder,Postorder,Inorder,Level order,Inorder
+105,Computer Science,Hard,What does a deadlock require in an operating system?,Only one process,A set of conditions including circular wait,No shared resources,Only read operations,A set of conditions including circular wait
+106,Logical Reasoning,Easy,"Find the next number: 2, 4, 6, 8, ?",9,10,12,14,10
+107,Logical Reasoning,Easy,"If CAT becomes DBU, what does DOG become?",EPH,DPH,EPG,FQH,EPH
+108,Logical Reasoning,Easy,Which shape has three sides?,Square,Triangle,Pentagon,Circle,Triangle
+109,Logical Reasoning,Easy,Find the odd one out.,Apple,Mango,Carrot,Banana,Carrot
+110,Logical Reasoning,Easy,"Complete the pattern: A, C, E, G, ?",H,I,J,K,I
+111,Logical Reasoning,Medium,"Find the next number: 3, 6, 12, 24, ?",30,36,48,60,48
+112,Logical Reasoning,Medium,"If all roses are flowers and some flowers fade quickly, which statement must be true?",All roses fade quickly,All flowers are roses,All roses are flowers,No roses fade,All roses are flowers
+113,Logical Reasoning,Medium,"Find the next letter: B, E, H, K, ?",L,M,N,O,N
+114,Logical Reasoning,Medium,"A is taller than B, and B is taller than C. Who is shortest?",A,B,C,Cannot tell,C
+115,Logical Reasoning,Medium,"If yesterday was Monday, what day is tomorrow?",Tuesday,Wednesday,Thursday,Sunday,Wednesday
+116,Logical Reasoning,Hard,"Find the next number: 1, 4, 9, 16, ?",20,24,25,36,25
+117,Logical Reasoning,Hard,"If each letter is shifted forward by one, what does QUIZ become?",RVJA,R V J A,PT HY,Q V J A,RVJA
+118,Logical Reasoning,Hard,"Find the missing number: 2, 6, 12, 20, 30, ?",36,40,42,48,42
+119,Logical Reasoning,Hard,A clock shows 3:00. What is the smaller angle between its hands?,45°,60°,90°,120°,90°
+120,Logical Reasoning,Hard,"If 5 machines make 5 items in 5 minutes, how long do 100 machines take to make 100 items at the same rate?",5 minutes,20 minutes,100 minutes,500 minutes,5 minutes
+121,Business and Economics,Easy,What is marketing mainly concerned with?,Selling only,Customer needs and value,Manufacturing only,Accounting only,Customer needs and value
+122,Business and Economics,Easy,What does a business sell to customers?,Only expenses,Products or services,Only taxes,Only salaries,Products or services
+123,Business and Economics,Easy,What is a customer?,A person who buys or uses a product or service,A company building,A tax document,A machine part,A person who buys or uses a product or service
+124,Business and Economics,Easy,Which term describes money earned by a business from sales before costs?,Revenue,Profit,Debt,Equity,Revenue
+125,Business and Economics,Easy,What is an entrepreneur?,A person who starts or runs a business,A person who only buys goods,A government tax,A type of currency,A person who starts or runs a business
+126,Business and Economics,Medium,What does GDP measure?,Population,Total value of final goods and services,Exports only,Government spending only,Total value of final goods and services
+127,Business and Economics,Medium,What is a target market?,Every person in the world,A specific group of customers a business aims to serve,Only company employees,A list of suppliers,A specific group of customers a business aims to serve
+128,Business and Economics,Medium,What is a fixed cost?,A cost that changes with each unit produced,A cost that generally stays constant over a relevant range,A sales discount,A customer payment,A cost that generally stays constant over a relevant range
+129,Business and Economics,Medium,What does break-even point mean?,Revenue equals total costs,Revenue is zero,Costs are always zero,Profit is at its maximum,Revenue equals total costs
+130,Business and Economics,Medium,Which document summarizes a company's income and expenses over a period?,Balance sheet,Income statement,Invoice,Purchase order,Income statement
+131,Business and Economics,Hard,Revenue minus total cost is called?,Investment,Profit,Capital,Tax,Profit
+132,Business and Economics,Hard,What does ROI commonly stand for?,Rate of Inflation,Return on Investment,Revenue of Industry,Risk of Income,Return on Investment
+133,Business and Economics,Hard,"If demand rises while supply stays the same, what generally happens to equilibrium price?",It falls,It rises,It stays at zero,It becomes negative,It rises
+134,Business and Economics,Hard,What is opportunity cost?,The value of the next best alternative given up,The total money in a bank,A business's tax rate,The price printed on a product,The value of the next best alternative given up
+135,Business and Economics,Hard,"Which financial statement reports assets, liabilities, and equity at a point in time?",Income statement,Cash flow statement,Balance sheet,Sales report,Balance sheet
